@@ -1,0 +1,16 @@
+name: Ontology Documentation CI
+
+on: 
+  push: 
+      branches:
+          - main
+jobs:
+  build:
+   uses: ogham-lod/sparqlunicornGoesGIS-ontdoc/.github/workflows/udoc.yml@main
+   with: 
+     rdffilepath: data/ogham.ttl
+     docpath: docs/ 
+     prefixns: http://lod.ogham.link/data/
+     prefixnsshort: ogham
+     indexpages: true
+     ghpages: true
