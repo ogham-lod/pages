@@ -6,7 +6,7 @@ on:
           - main
 jobs:
   build:
-   uses: sparqlunicorn/sparqlunicornGoesGIS-ontdoc/.github/workflows/udoc.yml@main
+   uses: ogham-lod/sparqlunicornGoesGIS-ontdoc/.github/workflows/udoc.yml@main
    with: 
      rdffilepath: data/ogham.ttl
      docpath: docs/ 
