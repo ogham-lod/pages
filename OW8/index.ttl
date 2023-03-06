@@ -1,0 +1,28 @@
+<http://lod.ogham.link/data/OW8> <http://ontology.ogham.link/context> "{{MUCOI [P]},{[P] MAQI MUCOI [P]},{[P] MAQI [P] MUCOI [P]},{[P] KOI MAQI MUCOI [P]},{[P] MUCOI [P]},{[P] MAQI [P] MAQI MUCOI [P]}}"@en .
+<http://lod.ogham.link/data/OW8> <http://ontology.ogham.link/exactMatch> <http://www.wikidata.org/entity/Q67999759> .
+<http://lod.ogham.link/data/OW8> <http://ontology.ogham.link/reference> "McManus 1991,§6.27"@en .
+<http://lod.ogham.link/data/OW8> <http://ontology.ogham.link/translation> "túath, tribe"@en .
+<http://lod.ogham.link/data/OW8> <http://purl.org/dc/terms/creator> <https://orcid.org/0000-0002-3246-3531> .
+<http://lod.ogham.link/data/OW8> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/deed.de> .
+<http://lod.ogham.link/data/OW8> <http://purl.org/dc/terms/rightsHolder> <https://orcid.org/0000-0002-3246-3531> .
+<http://lod.ogham.link/data/OW8> <http://purl.org/dc/terms/rightsHolder> <http://www.wikidata.org/entity/Q70310399> .
+<http://lod.ogham.link/data/OW8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ontology.ogham.link/Word> .
+<http://lod.ogham.link/data/OW8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://lod.ogham.link/data/OW8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ontology.ogham.link/FormulaWord> .
+<http://lod.ogham.link/data/OW8> <http://www.w3.org/2000/01/rdf-schema#label> "MUCOI"@en .
+<http://lod.ogham.link/data/OW8> <http://www.w3.org/2000/01/rdf-schema#label> "MUCOI"@goide .
+<http://lod.ogham.link/data/OW8> <http://www.w3.org/2004/02/skos/core#altLabel> "MUCOI"@en .
+<http://lod.ogham.link/data/OW8> <http://www.w3.org/2004/02/skos/core#altLabel> "MUCOI"@goide .
+<http://lod.ogham.link/data/OW8> <http://www.w3.org/2004/02/skos/core#altLabel> "MOCU"@en .
+<http://lod.ogham.link/data/OW8> <http://www.w3.org/2004/02/skos/core#altLabel> "MOCU"@goide .
+<http://lod.ogham.link/data/OW8> <http://www.w3.org/2004/02/skos/core#altLabel> "MACCU"@en .
+<http://lod.ogham.link/data/OW8> <http://www.w3.org/2004/02/skos/core#altLabel> "MACCU"@goide .
+<http://lod.ogham.link/data/OW8> <http://www.w3.org/2004/02/skos/core#altLabel> "MOCOI"@en .
+<http://lod.ogham.link/data/OW8> <http://www.w3.org/2004/02/skos/core#altLabel> "MOCOI"@goide .
+<http://lod.ogham.link/data/OW8> <http://www.w3.org/2004/02/skos/core#altLabel> "MOCO"@en .
+<http://lod.ogham.link/data/OW8> <http://www.w3.org/2004/02/skos/core#altLabel> "MOCO"@goide .
+<http://lod.ogham.link/data/OW8> <http://www.w3.org/2004/02/skos/core#prefLabel> "MUCOI"@en .
+<http://lod.ogham.link/data/OW8> <http://www.w3.org/2004/02/skos/core#prefLabel> "MUCOI"@goide .
+<http://lod.ogham.link/data/OW8> <http://www.w3.org/ns/prov#wasAttributedTo> <http://lod.ogham.link/data/PythonStonesCIIC> .
+<http://lod.ogham.link/data/OW8> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> .
+<http://lod.ogham.link/data/OW8> <http://www.w3.org/ns/prov#wasGeneratedBy> <http://lod.ogham.link/data/OW8_activity> .

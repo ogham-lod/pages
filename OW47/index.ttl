@@ -1,0 +1,19 @@
+<http://lod.ogham.link/data/OW47> <http://ontology.ogham.link/context> "{string}"@en .
+<http://lod.ogham.link/data/OW47> <http://ontology.ogham.link/exactMatch> <http://www.wikidata.org/entity/Q106703672> .
+<http://lod.ogham.link/data/OW47> <http://ontology.ogham.link/reference> "McManus 1991,§6.11"@en .
+<http://lod.ogham.link/data/OW47> <http://ontology.ogham.link/translation> "heart or reddens, burns"@en .
+<http://lod.ogham.link/data/OW47> <http://purl.org/dc/terms/creator> <https://orcid.org/0000-0002-3246-3531> .
+<http://lod.ogham.link/data/OW47> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/deed.de> .
+<http://lod.ogham.link/data/OW47> <http://purl.org/dc/terms/rightsHolder> <https://orcid.org/0000-0002-3246-3531> .
+<http://lod.ogham.link/data/OW47> <http://purl.org/dc/terms/rightsHolder> <http://www.wikidata.org/entity/Q70310399> .
+<http://lod.ogham.link/data/OW47> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ontology.ogham.link/Word> .
+<http://lod.ogham.link/data/OW47> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://lod.ogham.link/data/OW47> <http://www.w3.org/2000/01/rdf-schema#label> "CURCI"@en .
+<http://lod.ogham.link/data/OW47> <http://www.w3.org/2000/01/rdf-schema#label> "CURCI"@goide .
+<http://lod.ogham.link/data/OW47> <http://www.w3.org/2004/02/skos/core#altLabel> "CURCI"@en .
+<http://lod.ogham.link/data/OW47> <http://www.w3.org/2004/02/skos/core#altLabel> "CURCI"@goide .
+<http://lod.ogham.link/data/OW47> <http://www.w3.org/2004/02/skos/core#prefLabel> "CURCI"@en .
+<http://lod.ogham.link/data/OW47> <http://www.w3.org/2004/02/skos/core#prefLabel> "CURCI"@goide .
+<http://lod.ogham.link/data/OW47> <http://www.w3.org/ns/prov#wasAttributedTo> <http://lod.ogham.link/data/PythonStonesCIIC> .
+<http://lod.ogham.link/data/OW47> <http://www.w3.org/ns/prov#wasDerivedFrom> <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_words.csv> .
+<http://lod.ogham.link/data/OW47> <http://www.w3.org/ns/prov#wasGeneratedBy> <http://lod.ogham.link/data/OW47_activity> .
