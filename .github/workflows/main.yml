@@ -13,4 +13,5 @@ jobs:
      prefixns: http://lod.ogham.link/data/
      prefixnsshort: ogham
      indexpages: true
+     createColletions: true
      ghpages: true
