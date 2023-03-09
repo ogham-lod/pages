@@ -46227,6 +46227,111 @@ var tree={
         "type": "class",
         "text": "NomenclatureWord (oghamonto:NomenclatureWord) [14]",
         "data": {}
+      },
+      {
+        "id": "http://lod.ogham.link/data/OghamStone_collection",
+        "parent": "http://www.w3.org/2004/02/skos/core#Collection",
+        "type": "instance",
+        "text": "OghamStone Instances Collection (ogham:OghamStone_collection)",
+        "data": {}
+      },
+      {
+        "id": "http://lod.ogham.link/data/OghamStone_CIIC_collection",
+        "parent": "http://www.w3.org/2004/02/skos/core#Collection",
+        "type": "instance",
+        "text": "OghamStone_CIIC Instances Collection (ogham:OghamStone_CIIC_collection)",
+        "data": {}
+      },
+      {
+        "id": "http://lod.ogham.link/data/Activity_collection",
+        "parent": "http://www.w3.org/2004/02/skos/core#Collection",
+        "type": "instance",
+        "text": "Activity Instances Collection (ogham:Activity_collection)",
+        "data": {}
+      },
+      {
+        "id": "http://lod.ogham.link/data/OghamStone_CISP_collection",
+        "parent": "http://www.w3.org/2004/02/skos/core#Collection",
+        "type": "instance",
+        "text": "OghamStone_CISP Instances Collection (ogham:OghamStone_CISP_collection)",
+        "data": {}
+      },
+      {
+        "id": "http://lod.ogham.link/data/OghamStone_O3D_collection",
+        "parent": "http://www.w3.org/2004/02/skos/core#Collection",
+        "type": "instance",
+        "text": "OghamStone_O3D Instances Collection (ogham:OghamStone_O3D_collection)",
+        "data": {}
+      },
+      {
+        "id": "http://lod.ogham.link/data/OghamStone_Squirrel_collection",
+        "parent": "http://www.w3.org/2004/02/skos/core#Collection",
+        "type": "instance",
+        "text": "OghamStone_Squirrel Instances Collection (ogham:OghamStone_Squirrel_collection)",
+        "data": {}
+      },
+      {
+        "id": "http://lod.ogham.link/data/OghamSite_collection",
+        "parent": "http://www.w3.org/2004/02/skos/core#Collection",
+        "type": "instance",
+        "text": "OghamSite Instances Collection (ogham:OghamSite_collection)",
+        "data": {}
+      },
+      {
+        "id": "http://lod.ogham.link/data/Place_collection",
+        "parent": "http://www.w3.org/2004/02/skos/core#Collection",
+        "type": "instance",
+        "text": "Place Instances Collection (ogham:Place_collection)",
+        "data": {}
+      },
+      {
+        "id": "http://lod.ogham.link/data/Point_collection",
+        "parent": "http://www.w3.org/2004/02/skos/core#Collection",
+        "type": "geoinstance",
+        "text": "Point Instances Collection (ogham:Point_collection)",
+        "data": {}
+      },
+      {
+        "id": "http://lod.ogham.link/data/Person_collection",
+        "parent": "http://www.w3.org/2004/02/skos/core#Collection",
+        "type": "instance",
+        "text": "Person Instances Collection (ogham:Person_collection)",
+        "data": {}
+      },
+      {
+        "id": "http://lod.ogham.link/data/Concept_collection",
+        "parent": "http://www.w3.org/2004/02/skos/core#Collection",
+        "type": "instance",
+        "text": "Concept Instances Collection (ogham:Concept_collection)",
+        "data": {}
+      },
+      {
+        "id": "http://lod.ogham.link/data/Word_collection",
+        "parent": "http://www.w3.org/2004/02/skos/core#Collection",
+        "type": "instance",
+        "text": "Word Instances Collection (ogham:Word_collection)",
+        "data": {}
+      },
+      {
+        "id": "http://lod.ogham.link/data/FormulaWord_collection",
+        "parent": "http://www.w3.org/2004/02/skos/core#Collection",
+        "type": "instance",
+        "text": "FormulaWord Instances Collection (ogham:FormulaWord_collection)",
+        "data": {}
+      },
+      {
+        "id": "http://lod.ogham.link/data/NomenclatureWord_collection",
+        "parent": "http://www.w3.org/2004/02/skos/core#Collection",
+        "type": "instance",
+        "text": "NomenclatureWord Instances Collection (ogham:NomenclatureWord_collection)",
+        "data": {}
+      },
+      {
+        "id": "http://www.w3.org/2004/02/skos/core#Collection",
+        "parent": "#",
+        "type": "collectionclass",
+        "text": "Collection (skos:Collection) [14]",
+        "data": {}
       }
     ]
   }
