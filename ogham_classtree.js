@@ -32175,7 +32175,7 @@ var tree={
       {
         "id": "http://lod.ogham.link/data/OS40000001_suniv0_",
         "parent": "http://ontology.ogham.link/OghamSite",
-        "type": "geoinstance",
+        "type": "instance",
         "text": "Bennettsbridge (Ogham Site) (ogham:OS40000001)",
         "data": {}
       },
@@ -33071,7 +33071,7 @@ var tree={
       {
         "id": "http://lod.ogham.link/data/OS40000129_suniv0_",
         "parent": "http://ontology.ogham.link/OghamSite",
-        "type": "geoinstance",
+        "type": "instance",
         "text": "Glin North/South (Ogham Site) (ogham:OS40000129)",
         "data": {}
       },
@@ -33799,7 +33799,7 @@ var tree={
       {
         "id": "http://lod.ogham.link/data/OS40000001_suniv1_",
         "parent": "https://pleiades.stoa.org/places/vocab#Place",
-        "type": "geoinstance",
+        "type": "instance",
         "text": "Bennettsbridge (Ogham Site) (ogham:OS40000001)",
         "data": {}
       },
@@ -34695,7 +34695,7 @@ var tree={
       {
         "id": "http://lod.ogham.link/data/OS40000129_suniv1_",
         "parent": "https://pleiades.stoa.org/places/vocab#Place",
-        "type": "geoinstance",
+        "type": "instance",
         "text": "Glin North/South (Ogham Site) (ogham:OS40000129)",
         "data": {}
       },
@@ -35416,14 +35416,14 @@ var tree={
       {
         "id": "https://pleiades.stoa.org/places/vocab#Place",
         "parent": "#",
-        "type": "geoclass",
+        "type": "halfgeoclass",
         "text": "Place [231]",
         "data": {}
       },
       {
         "id": "http://lod.ogham.link/data/OS40000001_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "geoinstance",
+        "type": "instance",
         "text": "OS40000001_geom (ogham:OS40000001_geom)",
         "data": {}
       },
@@ -36319,7 +36319,7 @@ var tree={
       {
         "id": "http://lod.ogham.link/data/OS40000129_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "geoinstance",
+        "type": "instance",
         "text": "OS40000129_geom (ogham:OS40000129_geom)",
         "data": {}
       },
@@ -37040,7 +37040,7 @@ var tree={
       {
         "id": "http://www.opengis.net/ont/sf#Point",
         "parent": "#",
-        "type": "geoclass",
+        "type": "halfgeoclass",
         "text": "Point (sf:Point) [231]",
         "data": {}
       },
