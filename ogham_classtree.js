@@ -33792,7 +33792,7 @@ var tree={
       {
         "id": "http://ontology.ogham.link/OghamSite",
         "parent": "#",
-        "type": "class",
+        "type": "halfgeoclass",
         "text": "OghamSite (oghamonto:OghamSite) [231]",
         "data": {}
       },
@@ -46271,27 +46271,6 @@ var tree={
         "data": {}
       },
       {
-        "id": "http://lod.ogham.link/data/OghamSite_collection",
-        "parent": "http://www.w3.org/2004/02/skos/core#Collection",
-        "type": "instance",
-        "text": "OghamSite Instances Collection (ogham:OghamSite_collection)",
-        "data": {}
-      },
-      {
-        "id": "http://lod.ogham.link/data/Place_collection",
-        "parent": "http://www.w3.org/2004/02/skos/core#Collection",
-        "type": "instance",
-        "text": "Place Instances Collection (ogham:Place_collection)",
-        "data": {}
-      },
-      {
-        "id": "http://lod.ogham.link/data/Point_collection",
-        "parent": "http://www.w3.org/2004/02/skos/core#Collection",
-        "type": "geoinstance",
-        "text": "Point Instances Collection (ogham:Point_collection)",
-        "data": {}
-      },
-      {
         "id": "http://lod.ogham.link/data/Person_collection",
         "parent": "http://www.w3.org/2004/02/skos/core#Collection",
         "type": "instance",
@@ -46330,8 +46309,74 @@ var tree={
         "id": "http://www.w3.org/2004/02/skos/core#Collection",
         "parent": "#",
         "type": "collectionclass",
-        "text": "Collection (skos:Collection) [14]",
+        "text": "Collection (skos:Collection) [11]",
         "data": {}
+      },
+      {
+        "id": "http://lod.ogham.link/data/OghamSite_collection",
+        "parent": "http://www.opengis.net/ont/geosparql#FeatureCollection",
+        "type": "featurecollection",
+        "text": "OghamSite Instances Collection (ogham:OghamSite_collection)",
+        "data": {}
+      },
+      {
+        "id": "http://lod.ogham.link/data/Place_collection",
+        "parent": "http://www.opengis.net/ont/geosparql#FeatureCollection",
+        "type": "featurecollection",
+        "text": "Place Instances Collection (ogham:Place_collection)",
+        "data": {}
+      },
+      {
+        "id": "http://www.opengis.net/ont/geosparql#FeatureCollection",
+        "parent": "http://www.opengis.net/ont/geosparql#SpatialObjectCollection",
+        "type": "collectionclass",
+        "text": "FeatureCollection (gsp:FeatureCollection) [2]",
+        "data": {
+          "to": {
+            "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
+              "instancecount": 1
+            },
+            "http://www.w3.org/2000/01/rdf-schema#label": {
+              "instancecount": 1
+            },
+            "http://www.w3.org/2000/01/rdf-schema#member": {
+              "instancecount": 231,
+              "http://ontology.ogham.link/OghamSite": 231,
+              "https://pleiades.stoa.org/places/vocab#Place": 231
+            }
+          },
+          "from": {}
+        },
+        "instancecount": 234
+      },
+      {
+        "id": "http://lod.ogham.link/data/Point_collection",
+        "parent": "http://www.opengis.net/ont/geosparql#GeometryCollection",
+        "type": "geocollection",
+        "text": "Point Instances Collection (ogham:Point_collection)",
+        "data": {}
+      },
+      {
+        "id": "http://www.opengis.net/ont/geosparql#GeometryCollection",
+        "parent": "http://www.opengis.net/ont/geosparql#SpatialObjectCollection",
+        "type": "collectionclass",
+        "text": "GeometryCollection (gsp:GeometryCollection) [1]",
+        "data": {
+          "to": {
+            "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
+              "instancecount": 1
+            },
+            "http://www.w3.org/2000/01/rdf-schema#label": {
+              "instancecount": 1
+            },
+            "http://www.w3.org/2000/01/rdf-schema#member": {
+              "instancecount": 231,
+              "http://www.opengis.net/ont/sf#Point": 231
+            }
+          },
+          "from": {}
+        },
+        "instancecount": 234
       }
     ]
   }
