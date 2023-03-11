@@ -715,7 +715,7 @@ var search={
   "CASONI": "http://lod.ogham.link/data/OW83",
   "CATABAR": "http://lod.ogham.link/data/OW29",
   "CATTU": "http://lod.ogham.link/data/OW11",
-  "CATTUVVIRR": "http://lod.ogham.link/data/OW88",
+  "CATTUVVIRR": "http://lod.ogham.link/data/OW30",
   "CELI": "http://lod.ogham.link/data/OW3",
   "CERANI": "http://lod.ogham.link/data/OW63",
   "CHFLD/1 (Ogham Stone Concept by CISP)": "http://lod.ogham.link/data/Y20000106",
