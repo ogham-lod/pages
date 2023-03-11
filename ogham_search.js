@@ -1169,7 +1169,7 @@ var search={
   "DOV": "http://lod.ogham.link/data/OW13",
   "DOVAGNI": "http://lod.ogham.link/data/OW72",
   "DOVAIDONA": "http://lod.ogham.link/data/OW99",
-  "DOVALESCI": "http://lod.ogham.link/data/OW103",
+  "DOVALESCI": "http://lod.ogham.link/data/OW24",
   "DRCOM/1 (Ogham Stone Concept by CISP)": "http://lod.ogham.link/data/Y20000167",
   "DRLUS/1 (Ogham Stone Concept by CISP)": "http://lod.ogham.link/data/Y20000168",
   "DROMR/1 (Ogham Stone Concept by CISP)": "http://lod.ogham.link/data/Y20000169",
