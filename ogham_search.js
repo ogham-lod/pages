@@ -1565,7 +1565,7 @@ var search={
   "VENDOGNI": "http://lod.ogham.link/data/OW82",
   "VENDUBARI": "http://lod.ogham.link/data/OW97",
   "VENDVBARI": "http://lod.ogham.link/data/OW34",
-  "VERGOSO": "http://lod.ogham.link/data/OW94",
+  "VERGOSO": "http://lod.ogham.link/data/OW33",
   "VIR": "http://lod.ogham.link/data/OW16",
   "VIRAGNI": "http://lod.ogham.link/data/OW79",
   "VORGOS": "http://lod.ogham.link/data/OW58",
