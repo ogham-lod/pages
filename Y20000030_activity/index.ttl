@@ -1,0 +1,8 @@
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://lod.ogham.link/data/Y20000030_activity> a prov:Activity ;
+    prov:endedAtTime "2021-05-28T12:29:20.354573+00:00"^^xsd:dateTime ;
+    prov:startedAtTime "2021-05-28T12:29:19.974191+00:00"^^xsd:dateTime ;
+    prov:wasAssociatedWith <http://lod.ogham.link/data/PythonStonesCIIC> .
+

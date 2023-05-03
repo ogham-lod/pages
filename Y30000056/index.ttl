@@ -1,0 +1,31 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://ontology.ogham.link/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://lod.ogham.link/data/Y30000056> a ns1:OghamStone,
+        ns1:OghamStone_O3D ;
+    rdfs:label "196. Rathmalode II (Ogham Stone Concept by the Ogham in 3D Project)"@en ;
+    ns1:depth 0.09 ;
+    ns1:disclosedAt <http://lod.ogham.link/data/OS40000206> ;
+    ns1:exactMatch <http://www.wikidata.org/entity/Q106674230> ;
+    ns1:hasCollection <http://lod.ogham.link/data/Y50000196> ;
+    ns1:height 1.24 ;
+    ns1:shows <http://lod.ogham.link/data/OW18>,
+        <http://lod.ogham.link/data/OW2>,
+        <http://lod.ogham.link/data/OW52>,
+        <http://lod.ogham.link/data/OW6> ;
+    ns1:smr_no "KE042-166---" ;
+    ns1:width 0.33 ;
+    dc:identifier "196. Rathmalode II" ;
+    dcterms:creator <https://orcid.org/0000-0002-3246-3531> ;
+    dcterms:license <http://creativecommons.org/licenses/by-nc-sa/3.0/ie/deed.en_US> ;
+    dcterms:rightsHolder <http://www.wikidata.org/entity/Q106674066>,
+        <https://orcid.org/0000-0002-3246-3531> ;
+    rdfs:comment "Ogham Stone, Ireland"@en ;
+    prov:wasAttributedTo <http://lod.ogham.link/data/PythonStonesCIIC> ;
+    prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_stones.csv> ;
+    prov:wasGeneratedBy <http://lod.ogham.link/data/Y30000056_activity> .
+

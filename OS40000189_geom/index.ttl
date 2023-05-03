@@ -1,0 +1,7 @@
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix ns1: <http://ontology.ogham.link/> .
+
+<http://lod.ogham.link/data/OS40000189_geom> a <http://www.opengis.net/ont/sf#Point> ;
+    ns1:hasEPSG <http://www.opengis.net/def/crs/EPSG/0/4326> ;
+    geo:asWKT "POINT(-7.5175 54.362222)"^^geo:wktLiteral .
+

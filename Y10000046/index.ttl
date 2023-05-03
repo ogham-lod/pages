@@ -1,0 +1,22 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://ontology.ogham.link/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://lod.ogham.link/data/Y10000046> a ns1:OghamStone,
+        ns1:OghamStone_CIIC ;
+    rdfs:label "CIIC 14 (Ogham Stone Concept by RAS Macalister)"@en ;
+    ns1:disclosedAt <http://lod.ogham.link/data/OS40000151> ;
+    ns1:exactMatch <http://www.wikidata.org/entity/Q70899522> ;
+    ns1:hasCollection <http://lod.ogham.link/data/Y50000014> ;
+    dc:identifier "14" ;
+    dcterms:creator <https://orcid.org/0000-0002-3246-3531> ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/deed.de> ;
+    dcterms:rightsHolder <https://orcid.org/0000-0002-3246-3531>,
+        <https://orcid.org/0000-0003-4696-2101> ;
+    rdfs:comment "Ogham Stone, Ireland"@en ;
+    prov:wasAttributedTo <http://lod.ogham.link/data/PythonStonesCIIC> ;
+    prov:wasDerivedFrom <https://github.com/ogi-ogham/ogham-datav1/blob/main/csv/ogham/og_stones.csv> ;
+    prov:wasGeneratedBy <http://lod.ogham.link/data/Y10000046_activity> .
+
