@@ -12,6 +12,9 @@ jobs:
      docpath: docs/ 
      prefixns: http://lod.ogham.link/data/
      prefixnsshort: ogham
+     preferredlang: en
      indexpages: true
+     metadatatable: true
+     createnonNSPages: true
      createcollections: true
      ghpages: true
