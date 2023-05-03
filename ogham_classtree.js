@@ -10989,6 +10989,12 @@ var tree={
               "http://ontology.ogham.link/OghamStone": 1,
               "http://ontology.ogham.link/OghamStone_Squirrel": 1
             },
+            "http://ontology.ogham.link/shows": {
+              "instancecount": 1,
+              "http://ontology.ogham.link/Word": 1,
+              "http://www.w3.org/2004/02/skos/core#Concept": 1,
+              "http://ontology.ogham.link/FormulaWord": 1
+            },
             "http://purl.org/dc/elements/1.1/identifier": {
               "instancecount": 1
             },
@@ -11028,7 +11034,7 @@ var tree={
             }
           }
         },
-        "instancecount": 15
+        "instancecount": 16
       },
       {
         "id": "http://lod.ogham.link/data/Y10000001_activity",
@@ -25828,7 +25834,7 @@ var tree={
             "http://www.w3.org/ns/prov#wasGeneratedBy": {
               "instancecount": 0,
               "http://ontology.ogham.link/OghamStone": 1,
-              "http://ontology.ogham.link/OghamStone_CISP": 1
+              "http://ontology.ogham.link/OghamStone_Squirrel": 1
             }
           }
         },
@@ -28458,10 +28464,11 @@ var tree={
               "instancecount": 1
             },
             "http://ontology.ogham.link/shows": {
-              "instancecount": 2,
-              "http://ontology.ogham.link/Person": 1,
-              "http://www.w3.org/2004/02/skos/core#Concept": 2,
-              "http://ontology.ogham.link/Word": 1,
+              "instancecount": 6,
+              "http://ontology.ogham.link/Person": 2,
+              "http://www.w3.org/2004/02/skos/core#Concept": 6,
+              "http://ontology.ogham.link/Word": 4,
+              "http://ontology.ogham.link/FormulaWord": 2,
               "http://ontology.ogham.link/NomenclatureWord": 1
             },
             "http://ontology.ogham.link/t_status": {
@@ -28515,7 +28522,7 @@ var tree={
             }
           }
         },
-        "instancecount": 30
+        "instancecount": 34
       },
       {
         "id": "http://lod.ogham.link/data/Y30000001_suniv1_",
@@ -29678,12 +29685,10 @@ var tree={
               "instancecount": 1
             },
             "http://ontology.ogham.link/shows": {
-              "instancecount": 6,
-              "http://ontology.ogham.link/Person": 2,
-              "http://www.w3.org/2004/02/skos/core#Concept": 6,
-              "http://ontology.ogham.link/Word": 4,
-              "http://ontology.ogham.link/FormulaWord": 2,
-              "http://ontology.ogham.link/NomenclatureWord": 1
+              "instancecount": 1,
+              "http://ontology.ogham.link/Word": 1,
+              "http://www.w3.org/2004/02/skos/core#Concept": 1,
+              "http://ontology.ogham.link/FormulaWord": 1
             },
             "http://ontology.ogham.link/smr_no": {
               "instancecount": 1
@@ -29730,7 +29735,7 @@ var tree={
             }
           }
         },
-        "instancecount": 25
+        "instancecount": 20
       },
       {
         "id": "http://lod.ogham.link/data/Y50000001_suniv1_",
@@ -32471,8 +32476,8 @@ var tree={
             "http://ontology.ogham.link/hasCollection": {
               "instancecount": 0,
               "http://ontology.ogham.link/OghamStone": 2,
-              "http://ontology.ogham.link/OghamStone_CIIC": 1,
-              "http://ontology.ogham.link/OghamStone_CISP": 1
+              "http://ontology.ogham.link/OghamStone_CISP": 1,
+              "http://ontology.ogham.link/OghamStone_CIIC": 1
             },
             "http://www.w3.org/2000/01/rdf-schema#member": {
               "instancecount": 0,
@@ -35786,9 +35791,9 @@ var tree={
             "http://ontology.ogham.link/disclosedAt": {
               "instancecount": 0,
               "http://ontology.ogham.link/OghamStone": 4,
+              "http://ontology.ogham.link/OghamStone_CIIC": 1,
               "http://ontology.ogham.link/OghamStone_O3D": 1,
               "http://ontology.ogham.link/OghamStone_CISP": 1,
-              "http://ontology.ogham.link/OghamStone_CIIC": 1,
               "http://ontology.ogham.link/OghamStone_Squirrel": 1
             },
             "http://www.w3.org/2000/01/rdf-schema#member": {
@@ -45761,8 +45766,7 @@ var tree={
           "from": {
             "http://ontology.ogham.link/shows": {
               "instancecount": 0,
-              "http://ontology.ogham.link/OghamStone": 2,
-              "http://ontology.ogham.link/OghamStone_O3D": 1,
+              "http://ontology.ogham.link/OghamStone": 1,
               "http://ontology.ogham.link/OghamStone_CISP": 1
             },
             "http://www.w3.org/2000/01/rdf-schema#member": {
@@ -46536,7 +46540,7 @@ var tree={
               "instancecount": 2
             },
             "http://www.w3.org/2004/02/skos/core#altLabel": {
-              "instancecount": 2
+              "instancecount": 4
             },
             "http://www.w3.org/2004/02/skos/core#prefLabel": {
               "instancecount": 2
@@ -46553,13 +46557,18 @@ var tree={
             }
           },
           "from": {
+            "http://ontology.ogham.link/shows": {
+              "instancecount": 0,
+              "http://ontology.ogham.link/OghamStone": 1,
+              "http://ontology.ogham.link/OghamStone_CIIC": 1
+            },
             "http://www.w3.org/2000/01/rdf-schema#member": {
               "instancecount": 0,
               "http://www.w3.org/2004/02/skos/core#Collection": 2
             }
           }
         },
-        "instancecount": 19
+        "instancecount": 21
       },
       {
         "id": "http://lod.ogham.link/data/OW1_suniv2_",
@@ -46659,7 +46668,7 @@ var tree={
               "instancecount": 2
             },
             "http://www.w3.org/2004/02/skos/core#altLabel": {
-              "instancecount": 10
+              "instancecount": 2
             },
             "http://www.w3.org/2004/02/skos/core#prefLabel": {
               "instancecount": 2
@@ -46678,10 +46687,10 @@ var tree={
           "from": {
             "http://ontology.ogham.link/shows": {
               "instancecount": 0,
-              "http://ontology.ogham.link/OghamStone": 143,
-              "http://ontology.ogham.link/OghamStone_CIIC": 53,
-              "http://ontology.ogham.link/OghamStone_CISP": 52,
-              "http://ontology.ogham.link/OghamStone_O3D": 38
+              "http://ontology.ogham.link/OghamStone": 55,
+              "http://ontology.ogham.link/OghamStone_CIIC": 21,
+              "http://ontology.ogham.link/OghamStone_CISP": 22,
+              "http://ontology.ogham.link/OghamStone_O3D": 12
             },
             "http://www.w3.org/2000/01/rdf-schema#member": {
               "instancecount": 0,
@@ -46689,7 +46698,7 @@ var tree={
             }
           }
         },
-        "instancecount": 28
+        "instancecount": 20
       },
       {
         "id": "http://lod.ogham.link/data/OW10_suniv2_",
@@ -46824,7 +46833,7 @@ var tree={
               "instancecount": 2
             },
             "http://www.w3.org/2004/02/skos/core#altLabel": {
-              "instancecount": 18
+              "instancecount": 2
             },
             "http://www.w3.org/2004/02/skos/core#prefLabel": {
               "instancecount": 2
@@ -46843,10 +46852,10 @@ var tree={
           "from": {
             "http://ontology.ogham.link/shows": {
               "instancecount": 0,
-              "http://ontology.ogham.link/OghamStone": 67,
-              "http://ontology.ogham.link/OghamStone_CIIC": 25,
-              "http://ontology.ogham.link/OghamStone_CISP": 27,
-              "http://ontology.ogham.link/OghamStone_O3D": 15
+              "http://ontology.ogham.link/OghamStone": 49,
+              "http://ontology.ogham.link/OghamStone_CIIC": 20,
+              "http://ontology.ogham.link/OghamStone_CISP": 21,
+              "http://ontology.ogham.link/OghamStone_O3D": 8
             },
             "http://www.w3.org/2000/01/rdf-schema#member": {
               "instancecount": 0,
@@ -46854,7 +46863,7 @@ var tree={
             }
           }
         },
-        "instancecount": 36
+        "instancecount": 20
       },
       {
         "id": "http://lod.ogham.link/data/OghamStone_collection",
@@ -46947,14 +46956,16 @@ var tree={
               "instancecount": 1
             },
             "http://www.w3.org/2000/01/rdf-schema#member": {
-              "instancecount": 323,
-              "http://ontology.ogham.link/OghamStone": 323,
-              "http://ontology.ogham.link/OghamStone_CIIC": 323
+              "instancecount": 104,
+              "http://ontology.ogham.link/Word": 104,
+              "http://www.w3.org/2004/02/skos/core#Concept": 104,
+              "http://ontology.ogham.link/FormulaWord": 9,
+              "http://ontology.ogham.link/NomenclatureWord": 14
             }
           },
           "from": {}
         },
-        "instancecount": 325
+        "instancecount": 106
       },
       {
         "id": "http://lod.ogham.link/data/OghamSite_collection",
